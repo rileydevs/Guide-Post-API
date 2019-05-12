@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 mongoose.set('debug', true);
-mongoose.connect('', 
+mongoose.connect('',  
     {useNewUrlParser: true});
 
 mongoose.Promise = Promise;
